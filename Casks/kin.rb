@@ -14,22 +14,22 @@ cask "kin" do
   on_macos do
     on_intel do
       url "https://github.com/kaizakin/kinctx/releases/download/v#{version}/kinctx_#{version}_darwin_amd64.tar.gz"
-      sha256 "f2634fc3e52b14d987823aca62112ec039300d424c7d5eabcd5364b975b4b76d"
+      sha256 "19593609deaecd1b8bc3d522f1d8465ef1ce8475f66f3c5597c22eaf117faeff"
     end
     on_arm do
       url "https://github.com/kaizakin/kinctx/releases/download/v#{version}/kinctx_#{version}_darwin_arm64.tar.gz"
-      sha256 "6abd5660243ffefcbecacd7b66ba322300911b5da6bdcf708b66165fc2256f3a"
+      sha256 "c418792a91dbdd1714b15cd5484ab4634eda5c3ccaac317c88a6ea713a8a1cc0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kaizakin/kinctx/releases/download/v#{version}/kinctx_#{version}_linux_amd64.tar.gz"
-      sha256 "b6b7e714f4a414718b2e98d32281bff458818ce1151a5fa38f517e7907fd9272"
+      sha256 "37a45f115855c50fe9cb1ceb9ea57ffc14d8db6a66fb4ae9e8e934ed62c45497"
     end
     on_arm do
       url "https://github.com/kaizakin/kinctx/releases/download/v#{version}/kinctx_#{version}_linux_arm64.tar.gz"
-      sha256 "5d692f9f247568342dcea5da5fc90ffbd8b88faa7b2ddb7bd586e4754e049ad3"
+      sha256 "21552a23196987ced351c796dd9ec031767452ff99372e352367513ba08b8f94"
     end
   end
 
